@@ -1,0 +1,105 @@
+.{
+  overflow: auto;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: initial;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.container .entries{
+	float: left;
+	width: 250px;
+	height: auto;
+	position: absolute;
+	top: 250px;
+}
+
+.container{
+  top: 140px;
+  left: 120px;
+  right: 50px;
+  position: relative;
+  background: #fff;
+  float: none;
+  border-style: groove;
+  box-shadow:20px 20px 50px 15px grey;
+  border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+}
+
+.container .form_input{
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  width: 80%;
+  float: right;
+}
+
+.container .left_bottom{
+  float: left;
+  position: absolute;
+  top: 260px;
+}
+
+.container .right_button{
+  left: 250px;
+  text-decoration: none;
+  text-align: justify;
+  float: right;
+  position: relative;
+  background-size: 200px;
+  size: 100px;
+  font-size: 10px;
+  top: 135px;
+}
+
+.buttonPrevious{
+  background-color: #009999;
+  color: #fff;
+  padding: 10px 10px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.container .right_Search{
+  float: right;
+  position: relative;
+  top: -38px;
+}
+
+.container .option{
+  border-radius: 20px;
+}
+
+.container .search{
+  border-radius: 20px;
+}

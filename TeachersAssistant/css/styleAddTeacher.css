@@ -1,0 +1,39 @@
+.{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto" , sans-serif;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.container{
+	top: 140px;
+	left: 120px;
+	right: 50px;
+	position: relative;
+	background: #fff;
+	float: none;
+	border-style: groove;
+	box-shadow:20px 20px 50px 15px grey;
+	border: 2px solid black;
+  	padding: 10px;
+  	border-radius: 25px;
+}
+
+.container .form_input{
+	padding: 10px 20px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+	width: 80%;
+	float: right;
+}

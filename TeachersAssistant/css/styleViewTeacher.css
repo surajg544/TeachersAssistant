@@ -1,0 +1,17 @@
+.container .left_bottoms{
+  float: left;
+  position: absolute;
+  top: 345px;
+}
+
+.container .right_button{
+  left: -50px;
+  text-decoration: none;
+  text-align: justify;
+  float: right;
+  position: relative;
+  background-size: 200px;
+  size: 100px;
+  font-size: 10px;
+  top: 30px;
+}

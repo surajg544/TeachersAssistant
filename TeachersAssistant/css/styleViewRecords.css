@@ -1,0 +1,227 @@
+body{
+  overflow: auto;
+}
+
+.container{
+    top: 140px;
+    left: -310px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    /*float: none;*/
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 40%;
+    height: 48%;
+}
+
+.container1{
+    top: 140px;
+    left: 920px;
+    right: 50px;
+    position: relative;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 30%;
+    height: 200px;
+}
+
+.container2{
+    top: 170px;
+    left: 920px;
+    right: 50px;
+    position: relative;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 30%;
+    height: 200px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: initial;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.container3{
+    top: 620px;
+    left: 280px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 35%;
+}
+
+.container4{
+    top: 920px;
+    left: 276px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 40%; 
+}
+
+.box{
+  float: none;
+  position: relative;
+  left: 250px;
+  top: -80px;
+}
+
+.box .percent svg{
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.box .percent svg circle{
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px , 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.box .percent svg circle:nth-child(1){
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+
+.box .percent svg circle:nth-child(2){
+  stroke-dashoffset: calc(440 - (440 * 68) /100);
+  stroke: #03a9f4;
+}
+
+.container5{
+    top: 1260px;
+    left: 276px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 40%; 
+}
+
+.container6{
+    top: 1610px;
+    left: 276px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 40%; 
+}
+
+.container9{
+    top: 1960px;
+    left: 276px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 40%; 
+}
+
+/*VIEW TEACHER*/
+
+.container7{
+    top: 140px;
+    left: 276px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 40%; 
+}
+
+/*TIMETABLE*/
+
+.container8{
+    top: 140px;
+    left: 276px;
+    right: 50px;
+    position: absolute;
+    background: #fff;
+    float: none;
+    border-style: groove;
+    box-shadow:20px 20px 50px 15px grey;
+    border: 2px solid black;
+    padding: 75px 15px;
+    padding-top: 15px;
+    border-radius: 25px;
+    width: 80%;
+    height: 60%; 
+}
